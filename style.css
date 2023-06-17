@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayishblue: hsl(233, 8%, 79%);
+  --Darkgrayishblue: hsl(236, 13%, 42%);
+  --Verydarkblue: hsl(240, 100%, 5%);
+  --Softorange: hsl(35, 77%, 62%);
+  --Softred: hsl(5, 85%, 63%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.main-display {
+  margin: 50px 150px;
+}
+.hade-row {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.w {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.name-row {
+  display: flex;
+  color: var(--Darkgrayishblue);
+  justify-content: space-between;
+  align-items: center;
+}
+.name-row div {
+  margin-right: 20px;
+}
+.second-part {
+  display: flex;
+}
+.main-card {
+  width: 60%;
+}
+.main-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.main-info {
+  display: flex;
+  margin-top: 30px;
+}
+.main-info div {
+  width: 50%;
+}
+.letter {
+  width: 37%;
+  background-color: var(--Verydarkblue);
+  color: var(--Off-white);
+  padding: 25px;
+  margin-left: 3%;
+}
+.main-info h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800 !important;
+}
+.main-info p {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: var(--Darkgrayishblue);
+}
+.main-info a {
+  background-color: var(--Softred);
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: var(--Off-white);
+}
+
+.letter h2 {
+  font-size: 30px;
+  color: var(--Softorange);
+  margin-bottom: 1rem;
+}
+.card-text {
+  padding: 20px 0;
+}
+.footer-card {
+  display: flex;
+}
+.side-card {
+  width: 33.33%;
+}
+.image-text {
+  display: flex;
+  padding: 10px;
+}
+.card-image {
+  width: 200px;
+  height: 140px;
+}
+.card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card-texxt {
+  padding: 10px;
+}
+.card-texxt h3 {
+  font-size: 30px;
+  color: var(--Grayishblue);
+}
+.card-texxt h5 {
+  font-size: 15px;
+}
+.card-texxt p {
+  font-size: 12px;
+  padding: 7px 0;
+}
